@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cn.ksmcbrigade.hdykwd.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "hdykwd.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "AdvancementMixin",
+    "DisplayInfoMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
